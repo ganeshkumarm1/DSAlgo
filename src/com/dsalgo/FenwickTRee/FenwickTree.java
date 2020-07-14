@@ -19,8 +19,7 @@ public class FenwickTree {
 
     public void update(int index, int value) {
         index += 1;
-        while (index <= binaryIndexTree.size()) {
-
+        while (index < binaryIndexTree.size()) {
             binaryIndexTree.set(index, binaryIndexTree.get(index) + value);
             index = getNext(index);
         }
