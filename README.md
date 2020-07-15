@@ -7,3 +7,4 @@
 ## Algorithms
 * Fast Exponentiation (or) Exponential Squaring (or) Fast Modulo Multiplication
 * Euclidean GCD
+* Soundex
