@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SegmentTree {
-    List<Integer> ST;
-    int n;
+    private final List<Integer> ST;
+    private  List<Integer> input;
+    private int n;
 
     public SegmentTree(int n) {
         int height = (int) Math.ceil((Math.log(n) / Math.log(2)));
@@ -25,6 +26,8 @@ public class SegmentTree {
     }
 
     public int construct(List<Integer> input, int start, int end, int index) {
+        this.input = input;
+
         if(start == end) {
             ST.set(index, input.get(start));
             return input.get(start);
@@ -58,8 +61,38 @@ public class SegmentTree {
         return query(queryStart, queryEnd, 0, n - 1, 0);
     }
 
+    public void update(int index, int value, int STStart, int STEnd, int STIndex) {
+        if(index < STStart || index > STEnd) {
+            return;
+        }
+
+        if(STStart == STEnd) {
+            ST.set(STIndex, value);
+            input.set(index, value);
+        }
+        else {
+            int mid = getMid(STStart, STEnd);
+
+            if(index >= STStart && index <= mid) {
+                update(index, value, STStart, mid, 2 * STIndex + 1);
+            }
+            else {
+                update(index, value, mid + 1, STEnd, 2 * STIndex + 2);
+            }
+
+            ST.set(STIndex, Math.min(ST.get(2 * STIndex + 1), ST.get(2 * STIndex + 2)));
+        }
+
+        return;
+
+    }
+
+    public void update(int index, int value) {
+        update(index, value, 0, n - 1, 0);
+    }
+
     @Override
     public String toString() {
-        return ST.toString();
+        return "Input: " + input.toString() + "\n" + "Segment Tree: " + ST.toString();
     }
 }

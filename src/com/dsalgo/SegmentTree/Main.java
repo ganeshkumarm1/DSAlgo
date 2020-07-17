@@ -22,7 +22,7 @@ public class Main {
         SegmentTree segmentTree = new SegmentTree(input.size());
         segmentTree.construct(input, 0, input.size() - 1, 0);
 
-        System.out.println("Input: " + input.toString());
+        System.out.println(segmentTree.toString());
 
         // 0 based index
         findMin(1, 3, segmentTree);
@@ -30,5 +30,13 @@ public class Main {
         findMin(4, 5, segmentTree);
         findMin(2, 4, segmentTree);
 
+        segmentTree.update(3, 1);
+
+        System.out.println(segmentTree.toString());
+
+        findMin(1, 3, segmentTree);
+        findMin(0, 1, segmentTree);
+        findMin(4, 5, segmentTree);
+        findMin(2, 4, segmentTree);
     }
 }
