@@ -1,4 +1,4 @@
-package DisjointSet;
+package DataStructures.DisjointSet;
 
 import java.util.*;
 

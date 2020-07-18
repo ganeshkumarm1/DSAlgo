@@ -1,6 +1,5 @@
-package Soundex;
+package Algorithms.Soundex;
 
-import java.util.HashMap;
 import java.util.Map;
 
 public class Soundex {

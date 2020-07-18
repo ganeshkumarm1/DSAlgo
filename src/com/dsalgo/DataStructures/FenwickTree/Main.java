@@ -1,4 +1,4 @@
-package FenwickTree;
+package DataStructures.FenwickTree;
 
 import java.util.ArrayList;
 import java.util.List;

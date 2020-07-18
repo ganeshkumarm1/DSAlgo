@@ -1,4 +1,4 @@
-package WindowSlidingTechnique;
+package Algorithms.WindowSlidingTechnique;
 
 public class WindowSliding {
     public static int maxSatisfied(int[] customers, int[] grumpy, int X) {

@@ -1,4 +1,4 @@
-package DisjointSet;
+package DataStructures.DisjointSet;
 
 public class Node {
     int data;

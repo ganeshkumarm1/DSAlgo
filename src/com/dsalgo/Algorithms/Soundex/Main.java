@@ -1,4 +1,4 @@
-package Soundex;
+package Algorithms.Soundex;
 
 public class Main {
     public static void checkMatch(String name1, String name2, Soundex soundex) {

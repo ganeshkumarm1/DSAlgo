@@ -1,4 +1,4 @@
-package FastExponentiation;
+package Algorithms.FastExponentiation;
 
 public class FastExponentiation {
     private final long modulo;

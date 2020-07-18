@@ -1,4 +1,4 @@
-package EuclideanGCD;
+package Algorithms.EuclideanGCD;
 
 public class EuclideanGCD {
     public long gcd(long a, long b) {

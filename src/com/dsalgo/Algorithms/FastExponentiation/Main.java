@@ -1,4 +1,4 @@
-package FastExponentiation;
+package Algorithms.FastExponentiation;
 
 public class Main {
     public static void main(String[] args) {
