@@ -10,3 +10,4 @@
 * Euclidean GCD
 * Soundex
 * Window Sliding Technique
+* Backtracking
