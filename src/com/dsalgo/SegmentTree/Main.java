@@ -30,7 +30,8 @@ public class Main {
         findMin(4, 5, segmentTree);
         findMin(2, 4, segmentTree);
 
-        segmentTree.update(3, 1);
+        segmentTree.update(3, 1); // Point Update
+        segmentTree.update(0, 5,1); // Range Update
 
         System.out.println(segmentTree.toString());
 
