@@ -50,6 +50,7 @@ public class DisjointSet {
             parent2.parent = parent1;
         }
         else {
+            parent2.rank += rank1;
             parent1.parent = parent2;
         }
 
