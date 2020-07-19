@@ -4,6 +4,10 @@
 * Disjoint Sets
 * Fenwick Tree
 * Segment Tree
+* Stack
+* Linked List
+* Set
+* Hash Map
 
 ## Algorithms
 * Fast Exponentiation (or) Exponential Squaring (or) Fast Modulo Multiplication
