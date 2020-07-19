@@ -15,3 +15,4 @@
 * Soundex
 * Window Sliding Technique
 * Backtracking
+* MO's Algorithm / Square Root Decomposition
