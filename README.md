@@ -16,3 +16,4 @@
 * Window Sliding Technique
 * Backtracking
 * MO's Algorithm / Square Root Decomposition
+* 2D Binary Search

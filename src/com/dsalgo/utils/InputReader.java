@@ -38,7 +38,7 @@ public class InputReader {
         while (isSpaceChar(c))
             c = read();
         do {
-            stringBuilder.append(c);
+            stringBuilder.append((char) c);
             c = read();
         } while (!isSpaceChar(c));
         return stringBuilder.toString();
