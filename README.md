@@ -10,10 +10,11 @@
 * Hash Map
 
 ## Algorithms
-* Fast Exponentiation (or) Exponential Squaring (or) Fast Modulo Multiplication
+* Fast Exponentiation / Exponential Squaring / Fast Modulo Multiplication
 * Euclidean GCD
 * Soundex
 * Window Sliding Technique
 * Backtracking
 * MO's Algorithm / Square Root Decomposition
 * 2D Binary Search
+* Convex Hull / Graham's Scan
