@@ -43,9 +43,9 @@ public class AMChain {
             int bottom = lowerSize - 2;
             int middle = lowerSize - 1;
 
-            // We do < comparison to include collinear points
-            // If we want to remove collinear points we can change it to <
-            while (lowerSize > 1 && (calcOrientation(lower.get(bottom), lower.get(middle), points[i]) <= 0)) {
+            // We do < comparison to  include collinear points
+            // If we want to remove collinear points we can change it to <=
+            while (lowerSize > 1 && (calcOrientation(lower.get(bottom), lower.get(middle), points[i]) < 0)) {
                 lower.pop();
 
                 lowerSize = lower.size();
@@ -68,8 +68,8 @@ public class AMChain {
             int bottom = upperSize - 2;
             int middle = upperSize - 1;
 
-            // We do < comparison to include collinear points
-            // If we want to remove collinear points we can change it to <
+            // We do < comparison to  include collinear points
+            // If we want to remove collinear points we can change it to <=
             while (upperSize > 1 && (calcOrientation(upper.get(bottom), upper.get(middle), points[i]) < 0)) {
                 upper.pop();
                 upperSize = upper.size();
