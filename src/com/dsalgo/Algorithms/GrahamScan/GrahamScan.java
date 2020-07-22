@@ -4,11 +4,11 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Stack;
 
-public class ConvexHull {
+public class GrahamScan {
     Point[] points;
     int totalPoints;
 
-    public ConvexHull(Point[] points) {
+    public GrahamScan(Point[] points) {
         this.points = points;
         this.totalPoints = points.length;
     }

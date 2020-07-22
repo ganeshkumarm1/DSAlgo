@@ -1,4 +1,4 @@
-package Algorithms.GrahamScan;
+package Algorithms.AMChain;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,8 +19,9 @@ public class Main {
                 new Point(4, 3),
         };
 
-        GrahamScan grahamScan = new GrahamScan(points);
-        Point[] boundingPoints = grahamScan.findBoundingPoints();
+
+        AMChain amChain = new AMChain(points);
+        Point[] boundingPoints = amChain.findBoundingPoints();
 
         System.out.println("The bounding points of Convex Hull are:");
         for (Point boundingPoint : boundingPoints) {
