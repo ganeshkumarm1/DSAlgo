@@ -8,6 +8,8 @@
 * Linked List
 * Set
 * Hash Map
+* Graph
+
 
 ## Algorithms
 * Fast Exponentiation / Exponential Squaring / Fast Modulo Multiplication
@@ -19,3 +21,4 @@
 * 2D Binary Search
 * Convex Hull / Graham's Scan
 * Convex Hull / Andrew's Monotone Chain Method
+* Topological Sort of Directed Graph
