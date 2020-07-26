@@ -1,4 +1,5 @@
 # DSAlgo
+Curated list of Data Structures and Algorithms with their implementations in Java
 
 ## Data Structures
 * Disjoint Sets
