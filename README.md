@@ -9,7 +9,7 @@
 * Set
 * Hash Map
 * Graph
-
+* Heap
 
 ## Algorithms
 * Fast Exponentiation / Exponential Squaring / Fast Modulo Multiplication
