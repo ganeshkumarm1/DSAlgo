@@ -25,3 +25,4 @@ Curated list of Data Structures and Algorithms with their implementations in Jav
 10. Topological Sort of Directed Graph
 11. DDA Line Drawing Algorithm
 12. Ternary Search
+13. Merge Sort
