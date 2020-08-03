@@ -1,4 +1,4 @@
-package Algorithms.MOAlgorithm;
+package Algorithms.MOAlgorithm.DQUERY;
 
 class Query implements Comparable<Query> {
     int index;
@@ -13,8 +13,8 @@ class Query implements Comparable<Query> {
 
     @Override
     public int compareTo(Query query) {
-        int l = this.l / MO.BLOCK_SIZE;
-        int r = query.l / MO.BLOCK_SIZE;
+        int l = this.l / DQUERY.BLOCK_SIZE;
+        int r = query.l / DQUERY.BLOCK_SIZE;
         if (l != r) {
             return l - r;
         } else {

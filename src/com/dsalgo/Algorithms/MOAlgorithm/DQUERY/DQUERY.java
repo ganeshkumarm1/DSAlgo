@@ -1,11 +1,10 @@
-package Algorithms.MOAlgorithm;
+package Algorithms.MOAlgorithm.DQUERY;
 
 import utils.InputReader;
 
-import java.io.IOException;
 import java.util.*;
 
-class MO {
+class DQUERY {
     public static int BLOCK_SIZE = 0;
     
     public static void main(String[] args) {
